@@ -1,0 +1,10 @@
+Claims reconciliation for COMM (2025-07-01 → 2025-07-31)
+Totals: 835 claims, 357 members
+Top anomalies:
+- NO_ELIGIBILITY: 306 claims | paid $67366.66 | allowed $78860.18
+- OON_BILLED_INN: 130 claims | paid $28801.00 | allowed $34137.84
+- AMOUNT_MISMATCH: 79 claims | paid $28410.21 | allowed $19492.46
+Actions:
+- NO_ELIGIBILITY: check enrollment feeds for affected member IDs.
+- OON_BILLED_INN: verify provider contracting & mapping.
+- AMOUNT_MISMATCH: re-run adjudication rules for high deltas.

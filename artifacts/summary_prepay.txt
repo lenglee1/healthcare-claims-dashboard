@@ -1,0 +1,6 @@
+PREPAY reconciliation 2025-07-01→2025-07-31 LOB=COMM
+Totals: 1126 claims | members 439 | paid $324419.57 | allowed $378323.93
+Top anomalies:
+- PRE_NO_ELIGIBILITY: 408 | paid $118712.23
+- PRE_OON_BILLED_INN: 128 | paid $45972.54
+- PRE_MISSING_PA: 65 | paid $16925.87

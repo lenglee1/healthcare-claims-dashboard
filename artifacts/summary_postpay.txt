@@ -1,0 +1,5 @@
+POSTPAY reconciliation 2025-07-01→2025-07-31 LOB=COMM
+Totals: 1126 claims | members 439 | paid $324419.57 | allowed $378323.93
+Top anomalies:
+- POST_RATIO_OUTLIER: 100 | paid $48284.93
+- POST_NEAR_DUPLICATE: 6 | paid $1732.12

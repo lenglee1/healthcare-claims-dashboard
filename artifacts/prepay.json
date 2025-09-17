@@ -1,0 +1,47 @@
+{
+  "run_id": "ef899b75-cd8c-431d-aed5-6dcf5e12459c",
+  "mode": "pre",
+  "period": {
+    "start_date": "2025-07-01",
+    "end_date": "2025-07-31"
+  },
+  "lob": "COMM",
+  "totals": {
+    "claims": 1126,
+    "members": 439,
+    "paid": 324419.57,
+    "allowed": 378323.93
+  },
+  "anomalies": [
+    {
+      "type": "PRE_MISSING_PA",
+      "count": 65,
+      "paid": 16925.87,
+      "allowed": 18875.52
+    },
+    {
+      "type": "PRE_NO_ELIGIBILITY",
+      "count": 408,
+      "paid": 118712.23,
+      "allowed": 138548.22
+    },
+    {
+      "type": "PRE_OON_BILLED_INN",
+      "count": 128,
+      "paid": 45972.54,
+      "allowed": 52708.62
+    }
+  ],
+  "artifacts": {
+    "csv_path": "artifacts/prepay.csv",
+    "sql_fingerprints": [
+      "612f2f0e4042d9fc",
+      "38996ba69a225a4a",
+      "24d95ddb64dc9ec8",
+      "accde4cf2e8f08b2",
+      "b54e9d9274388cf9",
+      "b47a7fe19438dbfb"
+    ]
+  },
+  "generated_at": "2025-09-17T16:42:37.935440Z"
+}

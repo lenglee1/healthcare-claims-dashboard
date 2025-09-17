@@ -1,0 +1,43 @@
+{
+  "run_id": "48f627af-9574-46e4-8d88-a41b722b4e9e",
+  "period": {
+    "start_date": "2025-07-01",
+    "end_date": "2025-07-31"
+  },
+  "lob": "COMM",
+  "totals": {
+    "claims": 835,
+    "members": 357,
+    "paid": 188565.69,
+    "allowed": 220083.08000000002
+  },
+  "anomalies": [
+    {
+      "type": "AMOUNT_MISMATCH",
+      "count": 79,
+      "paid": 28410.21,
+      "allowed": 19492.46
+    },
+    {
+      "type": "NO_ELIGIBILITY",
+      "count": 306,
+      "paid": 67366.66,
+      "allowed": 78860.18
+    },
+    {
+      "type": "OON_BILLED_INN",
+      "count": 130,
+      "paid": 28801.0,
+      "allowed": 34137.84
+    }
+  ],
+  "artifacts": {
+    "csv_path": "artifacts/recon.csv",
+    "sql_fingerprints": [
+      "39b3ca304f0f5899",
+      "f258b79fb5f25e2a",
+      "7616adada3e12365"
+    ]
+  },
+  "generated_at": "2025-09-15T21:31:22.325984Z"
+}

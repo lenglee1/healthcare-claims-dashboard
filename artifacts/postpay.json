@@ -1,0 +1,41 @@
+{
+  "run_id": "f2aa1423-7a75-439d-9f4c-eb7985e581b5",
+  "mode": "post",
+  "period": {
+    "start_date": "2025-07-01",
+    "end_date": "2025-07-31"
+  },
+  "lob": "COMM",
+  "totals": {
+    "claims": 1126,
+    "members": 439,
+    "paid": 324419.57,
+    "allowed": 378323.93
+  },
+  "anomalies": [
+    {
+      "type": "POST_NEAR_DUPLICATE",
+      "count": 6,
+      "paid": 1732.12,
+      "allowed": 1951.88
+    },
+    {
+      "type": "POST_RATIO_OUTLIER",
+      "count": 100,
+      "paid": 48284.93,
+      "allowed": 33417.479999999996
+    }
+  ],
+  "artifacts": {
+    "csv_path": "artifacts/postpay.csv",
+    "sql_fingerprints": [
+      "612f2f0e4042d9fc",
+      "38996ba69a225a4a",
+      "24d95ddb64dc9ec8",
+      "accde4cf2e8f08b2",
+      "b54e9d9274388cf9",
+      "b47a7fe19438dbfb"
+    ]
+  },
+  "generated_at": "2025-09-17T17:29:53.649989Z"
+}
